@@ -3,7 +3,7 @@
 ### Stefan Schooneveld
 ### Tobias
 ### Rayan
-### Luciano
+### Luciano de Jong
 ### Gijs
 <br>
 
