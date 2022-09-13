@@ -1,3 +1,4 @@
+
 html {
     height: 100%;
 }
@@ -46,9 +47,38 @@ border-radius: 5px 5px 5px 5px;
 }
 
 .camera{
-width: 15px;
-height:15px;
-background-color: rgb(255, 0, 0);
-margin: 50 0 0 600;
+position:fixed;
+width: 10px;
+height:10px;
+background-color: rgb(109, 109, 109);
+margin-left: 680px;
+margin-top:15px;
 border-radius: 50%;
+border: 5px solid rgb(58, 58, 58)
+}
+
+.row{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+h1{
+color: antiquewhite;
+text-align: center;
+vertical-align: middle;
+line-height: 20px; 
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+}
+
+.toets{
+background: rgb(26, 26, 26);
+width: 60px;
+height: 60px;
+border: 2px solid black;
+margin-left: 5px;
+margin-right: 5px;
+border-radius:5px;
 }
