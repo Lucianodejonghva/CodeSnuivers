@@ -25,7 +25,7 @@ border: 3px solid rgb(0, 0, 0);
 .schermA{
 position:fixed;
 width: 1000px;
-height: 300px;
+height: 325px;
 background: rgb(0, 0, 0);
 margin-left: 180px;
 margin-top: 10px;
@@ -37,18 +37,30 @@ border: 3px solid rgb(0, 0, 0);
 }
 .schermB{
 position:fixed;
-width: 950px;
-height: 250px;
-background: rgb(214, 214, 214);
-margin-left: 210px;
+width: 970px;
+height: 272px;
+background: silver;
+margin-left: 198px;
 margin-top: 40px;
 border-radius: 5px 5px 5px 5px;
 }
 
 .camera{
-width: 15px;
-height:15px;
-background-color: rgb(255, 0, 0);
+width: 16px;
+height:16px;
+background-color: black;
+padding: 2px solid red;
+border: 3px solid gold;
 margin: 50 0 0 600;
 border-radius: 50%;
+margin-top: 14px;
+margin-left: 672px;
+position: fixed;
+}
+
+.Apple {
+    position: fixed;
+    margin-left: 665px;
+    margin-top: 312px;
+    width: 50px;
 }
