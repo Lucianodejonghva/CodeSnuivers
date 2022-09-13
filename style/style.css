@@ -1,7 +1,54 @@
 html {
     height: 100%;
 }
+
+
 body {
-    background: black;
+    background: rgb(255, 207, 136);
     margin: 0;
+}
+
+.bord{
+position:fixed;
+width: 1000px;
+height: 300px;
+background: rgb(146, 146, 146);
+margin-left: 180px;
+margin-top: 310px;
+margin-bottom: 10px;
+border-bottom-left-radius: 10%;
+border-bottom-right-radius: 10%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border: 3px solid rgb(0, 0, 0);
+}
+.schermA{
+position:fixed;
+width: 1000px;
+height: 300px;
+background: rgb(0, 0, 0);
+margin-left: 180px;
+margin-top: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+border: 3px solid rgb(0, 0, 0);
+}
+.schermB{
+position:fixed;
+width: 950px;
+height: 250px;
+background: rgb(214, 214, 214);
+margin-left: 210px;
+margin-top: 40px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.camera{
+width: 15px;
+height:15px;
+background-color: rgb(255, 0, 0);
+margin: 50 0 0 600;
+border-radius: 50%;
 }

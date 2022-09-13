@@ -1,7 +1,7 @@
 # Code Snuivers
 ## Gemaakt door:
 ### Stefan Schooneveld
-### Tobias
+### Tobias Vrolijk
 ### Rayan
 ### Luciano de Jong
 ### Gijs
