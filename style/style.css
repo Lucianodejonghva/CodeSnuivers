@@ -1,4 +1,7 @@
 
+
+
+
 html {
     height: 100vh;
 }
@@ -110,9 +113,13 @@ box-shadow: 0 8px #5e5e5e;
 
 .Google {
     position: relative;
-    left: 18em;
     top: 7em;
     width: 24em;
+}
+.searchbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .search {
     display: flex;
@@ -127,7 +134,30 @@ box-shadow: 0 8px #5e5e5e;
     font-size: 15px;
     background: #f8fafe;
 }
-
+.laptopsearchresult {
+    display:flex; 
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background: lightgrey;
+    overflow-y: scroll;
+    height: 7em;
+    position: relative;
+    top: 10em;
+    width: 25em;
+    border-radius: 2vh;
+  }
+  
+  .laptopsearchresult .name {
+    list-style-type:none;
+    border:2px solid black;
+    border-radius: 2vh;
+    width: 45%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+  }
 /*==================================================
   Media Queries
 ==================================================*/
