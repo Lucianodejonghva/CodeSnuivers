@@ -12,6 +12,10 @@ body {
     display: flex;
     justify-content: center;
 }
+.laptop-screen {
+    display: flex;
+    justify-content: center;
+}
 .bord{
 position:fixed;
 width: 63em;
