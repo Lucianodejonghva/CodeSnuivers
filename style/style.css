@@ -106,7 +106,7 @@ box-shadow: 0 8px #5e5e5e;
     width: 380px;
 }
 
-#searchbar_got {
+.searchbar {
     position: fixed;
     left: 50em;
     top: 21em;
