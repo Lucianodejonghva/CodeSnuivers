@@ -171,15 +171,15 @@ h1 {
 ==================================================*/
 
 @media only screen and (max-width: 1199px) {
-    .laptop-screen {
+    .laptop-screen-width {
         display: none;
     }
 
-    .tablet-screen {
+    .tablet-screen-width {
         display: block;
     }
 
-    .phone-screen {
+    .phone-screen-width {
         display: none;
     }
 
@@ -276,20 +276,30 @@ h1 {
         height: 2.5em;
         background-color: #252525;
         border-radius: 50%;
-        margin-top: 28.7em;
+        margin-top: 29em;
         margin-left: 7.8em;
         border: 1px solid rgb(133, 133, 133);
     }
 
-}
-
-.camera2 {
+    .camera2 {
+        position: relative;
+        width: 0.4em;
+        height: 0.4em;
+        background: rgb(44, 48, 66);
+        border-radius: 50%;
+        bottom: -1.7em;
+        left: 8.8em;
+        border: 2px solid rgb(56, 56, 56);
+    }
+    .Google{
     position: relative;
-    width: 0.4em;
-    height: 0.4em;
-    background: rgb(44, 48, 66);
-    border-radius: 50%;
-    bottom: 22.3em;
-    left: 8.7em;
-    border: 2px solid rgb(56, 56, 56);
+    top: 3em;
+    width: 13em;
+
+    }
+    .searchbar{
+        top: 6em;
+        width: 13em;
+        left:0;
+    }
 }
