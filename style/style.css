@@ -163,18 +163,18 @@ box-shadow: 0 8px #5e5e5e;
 ==================================================*/
 
 @media only screen and (max-width: 1199px){
-.laptop-screen {
-    display: none;
-}
-.tablet-screen {
-    display: block;
-}
-.phone-screen {
-    display: none;
-}
+    .laptop-screen {
+        display: none;
+    }
+    .tablet-screen {
+        display: block;
+    }
+    .phone-screen {
+        display: none;
+    }
     .schermA-tab {
-        position: fixed;
-        width: 760px;
+        position: absolute;
+        width: 715px;
         height: 550px;
         background: rgb(0, 0, 0);
         margin-top: 210px;
@@ -187,27 +187,35 @@ box-shadow: 0 8px #5e5e5e;
         justify-content: center;
     }
     .schermB-tab{
-        position: fixed;
-        width: 690px;
+        position: relative;
+        width: 660px;
         height: 490px;
         background: white;
         margin-top: 245px;
         border-radius: 5px 5px 5px 5px;
+        left: 1.8em;
     }
     .searchbar {
-        left: 13.5em;
-        top: 35em;
+        left: 0.5em;
+        top: 10em;
+        width: 22em;
     }
-    .Google-tab {
+    .Google {
         position: relative;
-        left: 11.4em;
-        top: 9em;
-        width: 330px;
+        left: 12em;
+        top: 7em;
+        width: 18em;
     }
     .camera-tab {
-        position: relative;
-        left: 2.3em;
-        top: 30em;
+        position: absolute;
+        width: 0.7em;
+        height: 0.7em;
+        background-color: rgb(109, 109, 109);
+        margin-top: 0.4em;
+        border-radius: 50%;
+        border: 5px solid rgb(58, 58, 58);
+        left: 0.1em;
+        top: 16em;
     }
 }
 
