@@ -8,6 +8,12 @@ body {
     background: rgb(255, 207, 136);
     margin: 0;
 }
+.tablet-screen {
+    display: none;
+}
+.phone-screen {
+    display: none;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -108,10 +114,12 @@ box-shadow: 0 8px #5e5e5e;
     top: 7em;
     width: 24em;
 }
-
+.search {
+    display: flex;
+    justify-content: center;
+}
 .searchbar {
     position: relative;
-    left: -8em;
     top: 11em;
     width: 26em;
     padding: 10px;
@@ -125,24 +133,15 @@ box-shadow: 0 8px #5e5e5e;
 ==================================================*/
 
 @media only screen and (max-width: 1199px){
-    .schermA {
-        display: none;
-    }
-    .schermB {
-        display: none;
-    }
-    .bord {
-        display: none;
-    }
-    .Google {
-        display: none;
-    }
-    .camera-tab {
-        display: none;
-    }
-    .Apple{
-        display: none;
-    }
+.laptop-screen {
+    display: none;
+}
+.tablet-screen {
+    display: block;
+}
+.phone-screen {
+    display: none;
+}
     .schermA-tab {
         position: fixed;
         width: 760px;
@@ -185,11 +184,18 @@ box-shadow: 0 8px #5e5e5e;
 @media only screen and (max-width: 991px) {
 
 }
-
 @media only screen and (max-width: 767px) {
 
 }
 
 @media only screen and (max-width: 479px) {
-    
+    .laptop-screen {
+        display: none;
+    }
+    .tablet-screen {
+        display: none;
+    }
+    .phone-screen {
+        display: block;
+    }
 }
