@@ -44,7 +44,7 @@ justify-content: center;
 position:fixed;
 width: 950px;
 height: 500px;
-background: rgb(214, 214, 214);
+background: white;
 margin-top: 45px;
 border-radius: 5px 5px 5px 5px;
 }
@@ -101,14 +101,18 @@ box-shadow: 0 8px #5e5e5e;
 
 .Google {
     position: fixed;
-    margin-left: 760px;
+    margin-left: 770px;
     margin-top: 145px;
     width: 380px;
 }
 
-.zoekbalk {
+#searchbar_got {
     position: fixed;
-    margin-left: 676px;
+    margin-left: 755px;
     margin-top: 305px;
-    width: 563px;
-}
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f8fafe;
+    }
