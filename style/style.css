@@ -100,16 +100,16 @@ box-shadow: 0 8px #5e5e5e;
 }
 
 .Google {
-    position: fixed;
-    margin-left: 770px;
-    margin-top: 145px;
+    position: relative;
+    left: 18em;
+    top: 7em;
     width: 380px;
 }
 
 #searchbar_got {
     position: fixed;
-    margin-left: 755px;
-    margin-top: 305px;
+    left: 50em;
+    top: 21em;
     width: 400px;
     padding: 10px;
     border-radius: 5px;
