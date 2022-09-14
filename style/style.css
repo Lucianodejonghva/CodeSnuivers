@@ -14,10 +14,10 @@ body {
 }
 .bord{
 position:fixed;
-width: 1000px;
-height: 300px;
+width: 63em;
+height: 20em;
 background: rgb(146, 146, 146);
-margin-top: 565px;
+margin-top: 35em;
 /* margin-bottom: 10px; */
 border-bottom-left-radius: 10%;
 border-bottom-right-radius: 10%;
@@ -27,10 +27,10 @@ border: 3px solid rgb(0, 0, 0);
 }
 .schermA{
 position:fixed;
-width: 1000px;
-height: 550px;
+width: 63em;
+height: 35em;
 background: rgb(0, 0, 0);
-margin-top: 10px;
+margin-top: 0.5em;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 border-top-left-radius: 10%;
@@ -42,19 +42,19 @@ justify-content: center;
 }
 .schermB{
 position:fixed;
-width: 950px;
-height: 500px;
+width: 59em;
+height: 31em;
 background: white;
-margin-top: 45px;
+margin-top: 3em;
 border-radius: 5px 5px 5px 5px;
 }
 
 .camera{
 position:fixed;
-width: 10px;
-height:10px;
+width: 0.8em;
+height:0.8em;
 background-color: rgb(109, 109, 109);
-margin-top:3px;
+margin-top:0.4em;
 border-radius: 50%;
 border: 5px solid rgb(58, 58, 58)
 }
@@ -62,7 +62,7 @@ border: 5px solid rgb(58, 58, 58)
 .row{
 display: flex;
 justify-content: center;
-margin-top: 20px;
+margin-top: 1.5em;
 
 }
 
@@ -77,8 +77,8 @@ font-weight: 500;
 
 .toets{
 background: rgb(26, 26, 26);
-width: 60px;
-height: 60px;
+width: 4em;
+height: 4em;
 border: 2px solid black;
 margin-left: 5px;
 margin-right: 5px;
@@ -94,23 +94,23 @@ box-shadow: 0 8px #5e5e5e;
 
 .Apple {
     position: fixed;
-    margin-left: 948px;
-    margin-top: 545px;
-    width: 40px;
+    margin-left: 50em;
+    margin-top: 34.2em;
+    width: 3em;
 }
 
 .Google {
     position: fixed;
-    margin-left: 770px;
-    margin-top: 145px;
-    width: 380px;
+    margin-left: 40em;
+    margin-top: 10em;
+    width: 21em;
 }
 
 #searchbar_got {
     position: fixed;
-    margin-left: 755px;
-    margin-top: 305px;
-    width: 400px;
+    margin-left: 40em;
+    margin-top: 22em;
+    width: 26em;
     padding: 10px;
     border-radius: 5px;
     font-size: 15px;
