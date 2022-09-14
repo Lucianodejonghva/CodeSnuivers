@@ -121,7 +121,61 @@ box-shadow: 0 8px #5e5e5e;
 ==================================================*/
 
 @media only screen and (max-width: 1199px){
-
+    .schermA {
+        display: none;
+    }
+    .schermB {
+        display: none;
+    }
+    .bord {
+        display: none;
+    }
+    .Google {
+        display: none;
+    }
+    .camera-tab {
+        display: none;
+    }
+    .Apple{
+        display: none;
+    }
+    .schermA-tab {
+        position: fixed;
+        width: 760px;
+        height: 550px;
+        background: rgb(0, 0, 0);
+        margin-top: 210px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border: 3px solid rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+    }
+    .schermB-tab{
+        position: fixed;
+        width: 690px;
+        height: 490px;
+        background: white;
+        margin-top: 245px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .searchbar {
+        left: 13.5em;
+        top: 35em;
+    }
+    .Google-tab {
+        position: relative;
+        left: 11.4em;
+        top: 9em;
+        width: 330px;
+    }
+    .camera-tab {
+        position: relative;
+        left: 2.3em;
+        top: 30em;
+    }
 }
 
 @media only screen and (max-width: 991px) {
