@@ -93,26 +93,45 @@ box-shadow: 0 8px #5e5e5e;
 }
 
 .Apple {
-    position: fixed;
-    margin-left: 50em;
-    margin-top: 34.2em;
+    position: relative;
+    margin-top: 33.3em;
     width: 3em;
 }
 
 .Google {
-    position: fixed;
-    margin-left: 40em;
-    margin-top: 10em;
-    width: 21em;
+    position: relative;
+    left: 18em;
+    top: 7em;
+    width: 24em;
 }
 
-#searchbar_got {
-    position: fixed;
-    margin-left: 40em;
-    margin-top: 22em;
+.searchbar {
+    position: relative;
+    left: -8em;
+    top: 11em;
     width: 26em;
     padding: 10px;
     border-radius: 5px;
     font-size: 15px;
     background: #f8fafe;
-    }
+}
+
+/*==================================================
+  Media Queries
+==================================================*/
+
+@media only screen and (max-width: 1199px){
+
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+    
+}
