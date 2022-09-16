@@ -1,4 +1,31 @@
+var ListOfNames = [
+    { Name: "Stefan" },
+    { Name: "Tobias" },
+    { Name: "Ivar" },
+    { Name: "Suus Ten V." },
+    { Name: "Krijn" },
+    { Name: "Luciano" },
+    { Name: "Maaike" },
+    { Name: "Nazneen" },
+    { Name: "Rayan" },
+    { Name: "Rosa" },
+    { Name: "Sascha" },
+    { Name: "Suus H." },
+    { Name: "Gijs" },
+    { Name: "Duneya" },
+    { Name: "Rosa" },
+    { Name: "Demi" },
+    { Name: "Ralph" },
+    { Name: "Youssra" },
+    { Name: "Marwu" },
+    { Device: "laptop" },
+    { Device: "tablet" },
+    { Device: "phone" }
+
+];
 // get search bar element
+// for (var i = 0; i < 3; i++) {
+
 const searchInput = document.getElementById("studentsearchbar");
 
 // store name elements in array-like object
@@ -26,41 +53,46 @@ searchInput.addEventListener("keyup", (event) => {
     }
 });
 
+// };
 
-var ListOfNames = [
-    { Name: "Stefan" },
-    { Name: "Tobias" },
-    { Name: "Ivar" },
-    { Name: "Suus Ten V." },
-    { Name: "Krijn" },
-    { Name: "Luciano" },
-    { Name: "Maaike" },
-    { Name: "Nazneen" },
-    { Name: "Rayan" },
-    { Name: "Rosa" },
-    { Name: "Sascha" },
-    { Name: "Suus H." },
-    { Name: "Gijs" },
-    { Name: "Stefan" },
-    { Name: "Duneya" },
-    { Name: "Rosa" },
-    { Name: "Demi" },
-    { Name: "Ralph" },
-    { Name: "Youssra" },
-    { Name: "Marwu" },
-    { Name: "Tobias" }
-
-];
-
-let ULID = document.getElementById('laptopsearchresult');
+let ULIDLaptop = document.getElementById('laptopsearchresult');
 
 for (var i = 0; i < ListOfNames.length; i++) {
 
 
-    let LiItems = document.createElement('li');
-    LiItems.setAttribute("class", "name");
-    LiItems.innerHTML = ListOfNames[i].Name;
+    let LiItemsLaptop = document.createElement('li');
+    LiItemsLaptop.setAttribute("class", "name");
+    LiItemsLaptop.innerHTML = ListOfNames[i].Name;
 
-    ULID.appendChild(LiItems);
 
+    ULIDLaptop.appendChild(LiItemsLaptop);
 };
+
+
+
+
+let ULIDTablet = document.getElementById('tabletsearchresult');
+
+for (var i = 0; i < ListOfNames.length; i++) {
+    let LiItemsTablet = document.createElement('li');
+    LiItemsTablet.setAttribute("class", "name");
+    LiItemsTablet.innerHTML = ListOfNames[i].Name;
+
+    ULIDTablet.appendChild(LiItemsTablet);
+
+}
+
+
+
+
+let ULIDPhone = document.getElementById('phonesearchresult');
+
+for (var i = 0; i < ListOfNames.length; i++) {
+    let LiItemsPhone = document.createElement('li');
+    LiItemsPhone.setAttribute("class", "name");
+    LiItemsPhone.innerHTML = ListOfNames[i].Name;
+
+    ULIDPhone.appendChild(LiItemsPhone);
+
+
+}
