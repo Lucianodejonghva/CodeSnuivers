@@ -1,7 +1,3 @@
-
-
-
-
 html {
     height: 100vh;
 }
@@ -11,93 +7,100 @@ body {
     background: rgb(255, 207, 136);
     margin: 0;
 }
-.tablet-screen {
+
+.tablet-screen-width {
     display: none;
 }
-.phone-screen {
+
+.phone-screen-width {
     display: none;
 }
+
 .container {
     display: flex;
     justify-content: center;
 }
-.laptop-screen {
+
+.laptop-screen-width {
     display: flex;
     justify-content: center;
 }
-.bord{
-position:fixed;
-width: 63em;
-height: 20em;
-background: rgb(146, 146, 146);
-margin-top: 35em;
-/* margin-bottom: 10px; */
-border-bottom-left-radius: 10%;
-border-bottom-right-radius: 10%;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-border: 3px solid rgb(0, 0, 0);
-}
-.schermA{
-position:fixed;
-width: 63em;
-height: 35em;
-background: rgb(0, 0, 0);
-margin-top: 0.5em;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-border-top-left-radius: 10%;
-border-top-right-radius: 10%;
-border: 3px solid rgb(0, 0, 0);
 
-display: flex;
-justify-content: center;
-}
-.schermB{
-position:fixed;
-width: 59em;
-height: 31em;
-background: white;
-margin-top: 3em;
-border-radius: 5px 5px 5px 5px;
+.bord {
+    position: fixed;
+    width: 63em;
+    height: 20em;
+    background: rgb(146, 146, 146);
+    margin-top: 35em;
+    /* margin-bottom: 10px; */
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
-.camera{
-position:fixed;
-width: 0.8em;
-height:0.8em;
-background-color: rgb(109, 109, 109);
-margin-top:0.4em;
-border-radius: 50%;
-border: 5px solid rgb(58, 58, 58)
+.schermA {
+    position: fixed;
+    width: 63em;
+    height: 35em;
+    background: rgb(0, 0, 0);
+    margin-top: 0.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border: 3px solid rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
 }
 
-.row{
-display: flex;
-justify-content: center;
-margin-top: 1.5em;
+.schermB {
+    position: fixed;
+    width: 59em;
+    height: 31em;
+    background: white;
+    margin-top: 3em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.camera {
+    position: fixed;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: rgb(109, 109, 109);
+    margin-top: 0.4em;
+    border-radius: 50%;
+    border: 5px solid rgb(58, 58, 58)
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
 
 }
 
-h1{
-color: antiquewhite;
-text-align: center;
-vertical-align: middle;
-line-height: 20px; 
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 500;
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
-.toets{
-background: rgb(26, 26, 26);
-width: 4em;
-height: 4em;
-border: 2px solid black;
-margin-left: 5px;
-margin-right: 5px;
-border-radius:5px;
-cursor: pointer;
-box-shadow: 0 8px #5e5e5e;
+.toets {
+    background: rgb(26, 26, 26);
+    width: 4em;
+    height: 4em;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px #5e5e5e;
 }
 
 .toets:active {
@@ -116,15 +119,18 @@ box-shadow: 0 8px #5e5e5e;
     top: 7em;
     width: 24em;
 }
+
 .searchbar-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .search {
     display: flex;
     justify-content: center;
 }
+
 .searchbar {
     position: relative;
     top: 11em;
@@ -134,8 +140,9 @@ box-shadow: 0 8px #5e5e5e;
     font-size: 15px;
     background: #f8fafe;
 }
+
 .laptopsearchresult {
-    display:flex; 
+    display: flex;
     align-items: center;
     flex-direction: column;
     padding: 10px;
@@ -146,32 +153,36 @@ box-shadow: 0 8px #5e5e5e;
     top: 10em;
     width: 25em;
     border-radius: 2vh;
-  }
-  
-  .laptopsearchresult .name {
-    list-style-type:none;
-    border:2px solid black;
+}
+
+.laptopsearchresult .name {
+    list-style-type: none;
+    border: 2px solid black;
     border-radius: 2vh;
     width: 45%;
     padding: 5px 0;
     text-align: center;
     background-color: lightgrey;
     margin-bottom: 10px;
-  }
+}
+
 /*==================================================
   Media Queries
 ==================================================*/
 
-@media only screen and (max-width: 1199px){
-    .laptop-screen {
+@media only screen and (max-width: 1199px) {
+    .laptop-screen-width {
         display: none;
     }
-    .tablet-screen {
+
+    .tablet-screen-width {
         display: block;
     }
-    .phone-screen {
+
+    .phone-screen-width {
         display: none;
     }
+
     .schermA-tab {
         position: absolute;
         width: 715px;
@@ -186,7 +197,8 @@ box-shadow: 0 8px #5e5e5e;
         display: flex;
         justify-content: center;
     }
-    .schermB-tab{
+
+    .schermB-tab {
         position: relative;
         width: 660px;
         height: 490px;
@@ -195,16 +207,19 @@ box-shadow: 0 8px #5e5e5e;
         border-radius: 5px 5px 5px 5px;
         left: 1.8em;
     }
+
     .searchbar {
         left: 0.5em;
         top: 10em;
         width: 22em;
     }
+
     .Google {
         position: relative;
         top: 7em;
         width: 18em;
     }
+
     .camera-tab {
         position: absolute;
         width: 0.7em;
@@ -242,21 +257,98 @@ box-shadow: 0 8px #5e5e5e;
       }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {}
 
-}
-@media only screen and (max-width: 767px) {
-
-}
+@media only screen and (max-width: 767px) {}
 
 @media only screen and (max-width: 479px) {
-    .laptop-screen {
+    .laptop-screen-width {
         display: none;
     }
-    .tablet-screen {
+
+    .tablet-screen-width {
         display: none;
     }
-    .phone-screen {
+
+    .phone-screen-width {
         display: block;
     }
+
+    .phone {
+        width: 18em;
+        height: 32em;
+        background-color: black;
+        margin-top: 0.5em;
+        border-radius: 30px;
+        border-right: 3px solid rgb(63, 63, 63);
+        border-bottom: 3px solid rgb(63, 63, 63);
+    }
+
+    .phone-screen {
+        position: relative;
+        width: 15em;
+        height: 24em;
+        background-color: rgb(255, 255, 255);
+        margin-left: 1.5em;
+        top: 4em;
+        border-radius: 2px;
+    }
+
+    .knoppie {
+        position: fixed;
+        width: 2.5em;
+        height: 2.5em;
+        background-color: #252525;
+        border-radius: 50%;
+        margin-top: 29em;
+        margin-left: 7.8em;
+        border: 1px solid rgb(133, 133, 133);
+    }
+
+    .camera2 {
+        position: relative;
+        width: 0.4em;
+        height: 0.4em;
+        background: rgb(44, 48, 66);
+        border-radius: 50%;
+        bottom: -1.7em;
+        left: 8.8em;
+        border: 2px solid rgb(56, 56, 56);
+    }
+    .Google{
+    position: relative;
+    top: 3em;
+    width: 13em;
+
+    }
+    .searchbar{
+        top: 6em;
+        width: 13em;
+        left:0;
+    }
+
+    .phonesearchresult {
+        display:flex; 
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        background: lightgrey;
+        overflow-y: scroll;
+        height: 7em;
+        position: relative;
+        top: 5em;
+        width: 13em;
+        border-radius: 2vh;
+      }
+      
+      .phonesearchresult .name {
+        list-style-type:none;
+        border:2px solid black;
+        border-radius: 2vh;
+        width: 45%;
+        padding: 5px 0;
+        text-align: center;
+        background-color: lightgrey;
+        margin-bottom: 10px;
+      }
 }

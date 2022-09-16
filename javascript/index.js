@@ -1,4 +1,7 @@
 var ListOfNames = [
+    { Device: "laptop" },
+    { Device: "tablet" },
+    { Device: "phone" },
     { Name: "Stefan" },
     { Name: "Tobias" },
     { Name: "Ivar" },
@@ -17,16 +20,13 @@ var ListOfNames = [
     { Name: "Demi" },
     { Name: "Ralph" },
     { Name: "Youssra" },
-    { Name: "Marwu" },
-    { Device: "laptop" },
-    { Device: "tablet" },
-    { Device: "phone" }
-
+    { Name: "Marwu" }
+    
 ];
+for (var i = 0; i < 3; i++) {
 // get search bar element
-// for (var i = 0; i < 3; i++) {
 
-const searchInput = document.getElementById("studentsearchbar");
+const searchInput = document.getElementById("studentsearchbar" + ListOfNames[i].Device);
 
 // store name elements in array-like object
 const namesFromDOM = document.getElementsByClassName("name");
@@ -53,11 +53,11 @@ searchInput.addEventListener("keyup", (event) => {
     }
 });
 
-// };
+};
 
 let ULIDLaptop = document.getElementById('laptopsearchresult');
 
-for (var i = 0; i < ListOfNames.length; i++) {
+for (var i = 3; i < ListOfNames.length; i++) {
 
 
     let LiItemsLaptop = document.createElement('li');
@@ -73,7 +73,7 @@ for (var i = 0; i < ListOfNames.length; i++) {
 
 let ULIDTablet = document.getElementById('tabletsearchresult');
 
-for (var i = 0; i < ListOfNames.length; i++) {
+for (var i = 3; i < ListOfNames.length; i++) {
     let LiItemsTablet = document.createElement('li');
     LiItemsTablet.setAttribute("class", "name");
     LiItemsTablet.innerHTML = ListOfNames[i].Name;
@@ -87,7 +87,7 @@ for (var i = 0; i < ListOfNames.length; i++) {
 
 let ULIDPhone = document.getElementById('phonesearchresult');
 
-for (var i = 0; i < ListOfNames.length; i++) {
+for (var i = 3; i < ListOfNames.length; i++) {
     let LiItemsPhone = document.createElement('li');
     LiItemsPhone.setAttribute("class", "name");
     LiItemsPhone.innerHTML = ListOfNames[i].Name;
