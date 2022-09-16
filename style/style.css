@@ -108,6 +108,26 @@ h1 {
     transform: translateY(4px);
 }
 
+@keyframes pressed {
+    from {
+        transform: translateY(0px);
+        box-shadow: 0 8px #5e5e5e;
+
+    }
+
+    to {
+        box-shadow: 0 5px #5e5e5e;
+
+        transform: translateY(4px);
+    }
+}
+
+.toetsactive {
+    /* box-shadow: 0 5px #5e5e5e; */
+    animation: pressed 0.1s alternate;
+    /* transform: translateY(4px); */
+}
+
 .Apple {
     position: relative;
     margin-top: 33.3em;
@@ -231,8 +251,9 @@ h1 {
         left: 0.1em;
         top: 16em;
     }
+
     .tabletsearchresult {
-        display:flex; 
+        display: flex;
         align-items: center;
         flex-direction: column;
         padding: 10px;
@@ -243,18 +264,18 @@ h1 {
         top: 10em;
         width: 25em;
         border-radius: 2vh;
-      }
-      
-      .tabletsearchresult .name {
-        list-style-type:none;
-        border:2px solid black;
+    }
+
+    .tabletsearchresult .name {
+        list-style-type: none;
+        border: 2px solid black;
         border-radius: 2vh;
         width: 45%;
         padding: 5px 0;
         text-align: center;
         background-color: lightgrey;
         margin-bottom: 10px;
-      }
+    }
 }
 
 @media only screen and (max-width: 991px) {}
@@ -315,20 +336,22 @@ h1 {
         left: 8.8em;
         border: 2px solid rgb(56, 56, 56);
     }
-    .Google{
-    position: relative;
-    top: 3em;
-    width: 13em;
+
+    .Google {
+        position: relative;
+        top: 3em;
+        width: 13em;
 
     }
-    .searchbar{
+
+    .searchbar {
         top: 6em;
         width: 13em;
-        left:0;
+        left: 0;
     }
 
     .phonesearchresult {
-        display:flex; 
+        display: flex;
         align-items: center;
         flex-direction: column;
         padding: 10px;
@@ -339,16 +362,16 @@ h1 {
         top: 5em;
         width: 13em;
         border-radius: 2vh;
-      }
-      
-      .phonesearchresult .name {
-        list-style-type:none;
-        border:2px solid black;
+    }
+
+    .phonesearchresult .name {
+        list-style-type: none;
+        border: 2px solid black;
         border-radius: 2vh;
         width: 45%;
         padding: 5px 0;
         text-align: center;
         background-color: lightgrey;
         margin-bottom: 10px;
-      }
+    }
 }

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./style/style.css" />
 
   <title>Code Snuivers</title>
@@ -16,7 +17,7 @@
     <div class="laptop-screen-width">
       <div class="bord">
         <div class="row1 row">
-          <div class="toets">
+          <div class="toets toets1">
             <h1>Q</h1>
           </div>
           <div class="toets">
@@ -108,7 +109,7 @@
         <div class="searchbar-container">
           <img class="Google" src="img/google-logo.png" alt="Google Logo" />
           <div class="search">
-            <input type="text" class="searchbar" id="studentsearchbarlaptop" name="SearchBar"
+            <input onkeypress="return myKeyPress(event)" type="text" class="searchbar" id="studentsearchbarlaptop" name="SearchBar"
               placeholder="Zoek hier naar een student..." />
           </div>
           <ul class="laptopsearchresult" id="laptopsearchresult">
@@ -125,7 +126,7 @@
         <div class="searchbar-container">
           <img class="Google" src="img/google-logo.png" alt="Google Logo" />
           <div class="search">
-            <input type="text" class="searchbar" id="studentsearchbartablet" name="SearchBar"
+            <input onkeypress="return myKeyPress(event)" type="text" class="searchbar" id="studentsearchbartablet" name="SearchBar"
               placeholder="Zoek hier naar een student..." />
           </div>
           <ul class="tabletsearchresult" id="tabletsearchresult">
@@ -143,7 +144,7 @@
           <div class="searchbar-container">
             <img class="Google" src="img/google-logo.png" alt="Google Logo" />
             <div class="search">
-              <input type="text" class="searchbar" id="studentsearchbarphone" name="SearchBar"
+              <input onkeypress="return myKeyPress(event)" type="text" class="searchbar" id="studentsearchbarphone" name="SearchBar"
                 placeholder="Zoek hier naar een student..." />
             </div>
             <ul class="phonesearchresult" id="phonesearchresult">
@@ -158,6 +159,7 @@
 
 
   <script src="./javascript/index.js"></script>
+  <script src="./javascript/typeeffect.js"></script>
 </body>
 
 </html>
