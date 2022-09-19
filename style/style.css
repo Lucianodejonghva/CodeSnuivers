@@ -86,11 +86,24 @@ h1 {
     color: antiquewhite;
     text-align: center;
     vertical-align: middle;
-    line-height: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff03f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
+    margin-top: 15px;
 }
 
+  @keyframes animate {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
 .toets {
     background: rgb(26, 26, 26);
     width: 4em;
