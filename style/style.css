@@ -89,7 +89,21 @@ h1 {
     line-height: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff03f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
 }
+  
+  @keyframes animate {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
 
 .toets {
     background: rgb(26, 26, 26);
@@ -231,30 +245,6 @@ h1 {
         left: 0.1em;
         top: 16em;
     }
-    .tabletsearchresult {
-        display:flex; 
-        align-items: center;
-        flex-direction: column;
-        padding: 10px;
-        background: lightgrey;
-        overflow-y: scroll;
-        height: 7em;
-        position: relative;
-        top: 10em;
-        width: 25em;
-        border-radius: 2vh;
-      }
-      
-      .tabletsearchresult .name {
-        list-style-type:none;
-        border:2px solid black;
-        border-radius: 2vh;
-        width: 45%;
-        padding: 5px 0;
-        text-align: center;
-        background-color: lightgrey;
-        margin-bottom: 10px;
-      }
 }
 
 @media only screen and (max-width: 991px) {}
@@ -326,29 +316,4 @@ h1 {
         width: 13em;
         left:0;
     }
-
-    .phonesearchresult {
-        display:flex; 
-        align-items: center;
-        flex-direction: column;
-        padding: 10px;
-        background: lightgrey;
-        overflow-y: scroll;
-        height: 7em;
-        position: relative;
-        top: 5em;
-        width: 13em;
-        border-radius: 2vh;
-      }
-      
-      .phonesearchresult .name {
-        list-style-type:none;
-        border:2px solid black;
-        border-radius: 2vh;
-        width: 45%;
-        padding: 5px 0;
-        text-align: center;
-        background-color: lightgrey;
-        margin-bottom: 10px;
-      }
 }
