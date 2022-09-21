@@ -90,7 +90,7 @@ h1 {
     font-weight: 500;
     background: linear-gradient(90deg, #ff0000, #ffff00, #ff03f3, #0033ff, #ff00c4, #ff0000);
     background-size: 400%;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 15s linear infinite;
     margin-top: 15px;
