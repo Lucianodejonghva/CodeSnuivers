@@ -201,6 +201,7 @@ a {
     text-align: center;
     background-color: lightgrey;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 /*==================================================
@@ -292,6 +293,8 @@ a {
         text-align: center;
         background-color: lightgrey;
         margin-bottom: 10px;
+    letter-spacing: 2px;
+
     }
 }
 
@@ -392,4 +395,6 @@ a {
         text-align: center;
         background-color: lightgrey;
         margin-bottom: 10px;
+    letter-spacing: 2px;
+
     }
