@@ -7,7 +7,9 @@ Als thema van onze pagina, hebben wij een laptop gebouwd met daarop een zoekmach
 Een van de opdrachten was dat de site responsive moet zijn voor andere apparaten. In plaats van een kleinere laptop te maken, hebben we besloten het apparaat te veranderen. Zo gaat de laptop naar een iPad en vervolgens weer over naar een iPhone. 
 
 iPad:
+
 ![image](https://user-images.githubusercontent.com/112861060/191933716-c9e796c1-57c0-41d3-89d5-ca679d0990c6.png)
 
 iPhone:
+
 ![image](https://user-images.githubusercontent.com/112861060/191933858-0a6748f7-d72d-4ed9-8a59-a745e85fa11e.png)
